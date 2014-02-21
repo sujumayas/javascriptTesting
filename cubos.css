@@ -1,0 +1,42 @@
+
+* {
+	box-sizing:border-box;
+}
+
+
+.wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+button {
+	display: block;
+	float:left;
+	height: 80px;
+	width: 10%;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 0;
+}
+
+.black {
+	background-color: black;
+	color: white;
+}
+
+.white {
+	background-color: white;
+}
+
+.black:hover {
+	background-color: gray;
+}
+
+.white:hover {
+	background-color: gray;
+}
+
+.shadow {
+	background-color: #f99;
+	font-size: 20px;
+}
