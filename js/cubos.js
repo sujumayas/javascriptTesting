@@ -34,7 +34,7 @@ $( document ).ready(function() {
 	    var down = ":nth-child(" + (i - 9) + ")";
 	    $("button" + up).addClass("shadow");
 	    $("button" + down).addClass("shadow");
-	    $(this).on({mouseleave: function(){
+	    $(".wrapper").on({mouseleave: function(){
 	    	    	for (var i = $("button").length; i >= 0; i--) {
 	    	    		var indi = ":nth-child("+i+")";
 	    	    		$("button"+indi).removeClass("shadow");
